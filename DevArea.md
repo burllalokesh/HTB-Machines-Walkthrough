@@ -66,3 +66,13 @@ PORT     STATE SERVICE VERSION
 
 ```
 
+Enumaration
+
+http://devarea.htb:8888/login - Hoverfly - CVE-2025-54123
+http://devarea.htb:8080/ - Jetty:// 9.4.27.v20200227
+http://devarea.htb/ 
+
+Conneted to FTP using the anonymous login 
+```
+wget -r ftp://anonymous:anonymous@10.129.20.202
+```
